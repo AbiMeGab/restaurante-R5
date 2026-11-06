@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="@string/titulo_comida"
+            app:titleTextColor="@color/blanco"
+            app:navigationIcon="@drawable/ic_flecha_atras" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margen_general">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_nombre"
+                android:textSize="@dimen/texto_normal"
+                android:textColor="@color/negro" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_nombre"
+                android:inputType="textPersonName"
+                android:layout_marginTop="@dimen/margen_pequeno" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_precio"
+                android:textSize="@dimen/texto_normal"
+                android:textColor="@color/negro"
+                android:layout_marginTop="@dimen/margen_general" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_precio"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="@dimen/margen_pequeno" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_descripcion"
+                android:textSize="@dimen/texto_normal"
+                android:textColor="@color/negro"
+                android:layout_marginTop="@dimen/margen_general" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_descripcion"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="@dimen/margen_pequeno" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_tipo"
+                android:textSize="@dimen/texto_normal"
+                android:textColor="@color/negro"
+                android:layout_marginTop="@dimen/margen_general" />
+
+            <Spinner
+                android:id="@+id/sp_tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/tipos_comida_etiquetas"
+                android:layout_marginTop="@dimen/margen_pequeno" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_actualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton_actualizar"
+                android:layout_marginTop="@dimen/margen_grande"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton_eliminar"
+                android:layout_marginTop="@dimen/margen_pequeno"
+                android:textColor="@color/naranja_accent"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

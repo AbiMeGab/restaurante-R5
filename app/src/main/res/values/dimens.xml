@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_pequeno">8dp</dimen>
+    <dimen name="margen_general">16dp</dimen>
+    <dimen name="margen_grande">24dp</dimen>
+    <dimen name="texto_titulo">20sp</dimen>
+    <dimen name="texto_normal">16sp</dimen>
+    <dimen name="texto_pequeno">14sp</dimen>
+    <dimen name="texto_precio_grande">24sp</dimen>
+    <dimen name="altura_item_lista">56dp</dimen>
+    <dimen name="imagen_detalle">200dp</dimen>
+</resources>

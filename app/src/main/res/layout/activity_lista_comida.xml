@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/blanco"
+        app:navigationIcon="@drawable/ic_flecha_atras"
+        app:menu="@menu/menu_principal" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:tabTextColor="@color/naranja_200"
+        app:tabSelectedTextColor="@color/blanco"
+        app:tabIndicatorColor="@color/blanco"
+        app:tabMode="fixed"
+        app:tabGravity="fill" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_comidas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/gris_divisor"
+            android:dividerHeight="1dp" />
+
+        <TextView
+            android:id="@+id/tv_vacio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sin_platillos"
+            android:textSize="@dimen/texto_normal"
+            android:textColor="@color/gris_texto"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</LinearLayout>

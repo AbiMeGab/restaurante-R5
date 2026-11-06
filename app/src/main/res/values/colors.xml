@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="naranja_200">#FFFFCC80</color>
+    <color name="naranja_500">#FFFF9800</color>
+    <color name="naranja_700">#FFF57C00</color>
+    <color name="naranja_accent">#FFFF5722</color>
+    <color name="blanco">#FFFFFFFF</color>
+    <color name="negro">#FF000000</color>
+    <color name="gris_fondo">#FFF5F5F5</color>
+    <color name="gris_texto">#FF757575</color>
+    <color name="gris_divisor">#FFE0E0E0</color>
+    <color name="texto_precio">#FFF57C00</color>
+</resources>

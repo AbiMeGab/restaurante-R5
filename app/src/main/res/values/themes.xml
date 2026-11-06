@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Restaurante" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/naranja_500</item>
+        <item name="colorPrimaryVariant">@color/naranja_700</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorSecondary">@color/naranja_accent</item>
+        <item name="colorSecondaryVariant">@color/naranja_700</item>
+        <item name="colorOnSecondary">@color/blanco</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/gris_fondo</item>
+    </style>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurante</string>
+
+    <!-- Títulos -->
+    <string name="titulo_restaurantes">Restaurantes</string>
+    <string name="titulo_restaurante">Restaurante</string>
+    <string name="titulo_comida">Comida</string>
+
+    <!-- Etiquetas de formulario -->
+    <string name="etiqueta_nombre">Nombre:</string>
+    <string name="etiqueta_precio">Precio:</string>
+    <string name="etiqueta_descripcion">Descripción:</string>
+    <string name="etiqueta_tipo">Tipo:</string>
+    <string name="hint_nombre">Nombre…</string>
+    <string name="hint_precio">0.0</string>
+    <string name="hint_descripcion">Descripción…</string>
+    <string name="hint_tipo">Tipo…</string>
+
+    <!-- Botones -->
+    <string name="boton_registrar">REGISTRAR</string>
+    <string name="boton_actualizar">ACTUALIZAR</string>
+    <string name="boton_eliminar">ELIMINAR</string>
+
+    <!-- Menú -->
+    <string name="menu_agregar">Agregar</string>
+    <string name="menu_editar">Editar</string>
+
+    <!-- Tabs -->
+    <string name="tab_comida">Comida</string>
+    <string name="tab_bebidas">Bebidas</string>
+    <string name="tab_complementos">Complementos</string>
+
+    <!-- Mensajes -->
+    <string name="error_nombre_vacio">El nombre no puede estar vacío</string>
+    <string name="error_precio_invalido">Ingrese un precio válido</string>
+    <string name="error_registro">Error al registrar. Intente de nuevo</string>
+    <string name="mensaje_registrado">Registrado exitosamente</string>
+    <string name="mensaje_actualizado">Actualizado exitosamente</string>
+    <string name="mensaje_eliminado">Eliminado exitosamente</string>
+    <string name="confirmar_eliminar_titulo">Confirmar eliminación</string>
+    <string name="confirmar_eliminar_mensaje">¿Está seguro que desea eliminar este registro?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="sin_restaurantes">No hay restaurantes registrados</string>
+    <string name="sin_platillos">No hay platillos en esta categoría</string>
+
+    <!-- Formato -->
+    <string name="formato_precio">$%,.2f</string>
+
+    <!-- Tipos de comida para Spinner -->
+    <string-array name="tipos_comida_etiquetas">
+        <item>Comida</item>
+        <item>Bebida</item>
+        <item>Complemento</item>
+    </string-array>
+</resources>
